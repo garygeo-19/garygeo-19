@@ -12,15 +12,23 @@ I also consult through **[Recurxive LLC](https://recurxive.com)**, building AI i
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <img src="https://flashfeedlearningapp.com/assets/icon-180.png" width="48" align="left" alt="FlashFeed icon">
+    <td valign="top">
+      <img src="https://flashfeedlearningapp.com/assets/icon-180.png" width="56" align="left" alt="FlashFeed icon">
       <b><a href="https://flashfeedlearningapp.com">FlashFeed</a></b><br>
-      <img src="https://img.shields.io/badge/iPhone-coming_soon-f60?logo=apple&logoColor=white" alt="Coming to iPhone">
+      <a href="https://apps.apple.com/us/app/flashfeed/id6788783813"><img src="https://img.shields.io/badge/App_Store-live-111?logo=apple&logoColor=white" alt="On the App Store"></a>
+      <a href="https://play.google.com/store/apps/details?id=com.recurxive.flashfeed"><img src="https://img.shields.io/badge/Google_Play-live-111?logo=googleplay&logoColor=white" alt="On Google Play"></a>
       <br clear="left"><br>
-      A free, general-purpose micro-learning app. Pick any topic and learn it through short cards, quick games, and study guides, a minute at a time. It has 57 Knowledge Packs so far, with no account and no ads.
+      A free, general-purpose micro-learning app. Pick any topic and learn it a minute at a time: short cards in a feed, quick games dealt between them, a study guide for every lesson, and a Review queue for the questions you miss. It has 68 Knowledge Packs and 23 games, with no account and no ads. Lesson videos are on <a href="https://www.youtube.com/@FlashFeedLearningApp">YouTube</a>.
+      <br><br>
+      <a href="https://flashfeedlearningapp.com"><img src="https://flashfeedlearningapp.com/assets/app/feed-440.webp" width="150" alt="The FlashFeed feed showing a U.S. National Parks fact card"></a>
+      <a href="https://flashfeedlearningapp.com"><img src="https://flashfeedlearningapp.com/assets/app/feed-game-440.webp" width="150" alt="A Word Hunter game dealt in the feed"></a>
+      <a href="https://flashfeedlearningapp.com"><img src="https://flashfeedlearningapp.com/assets/app/study-440.webp" width="150" alt="The Study tab showing a Money 101 study guide"></a>
+      <a href="https://flashfeedlearningapp.com"><img src="https://flashfeedlearningapp.com/assets/app/packs-440.webp" width="150" alt="The Packs tab: the Knowledge Pack catalog"></a>
       <br><br><code>Expo</code> <code>React Native</code> <code>TypeScript</code> <code>Python</code>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td valign="top">
       <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/19/5a/b7195aec-d321-79fb-2a09-341f6b12fbad/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg" width="48" align="left" alt="AbsurdScene icon">
       <b><a href="https://apps.apple.com/us/app/absurdscene-spanish/id6757897065">AbsurdScene: Spanish</a></b><br>
       <a href="https://apps.apple.com/us/app/absurdscene-spanish/id6757897065"><img src="https://img.shields.io/badge/App_Store-live-111?logo=apple&logoColor=white" alt="On the App Store"></a>
@@ -33,7 +41,9 @@ I also consult through **[Recurxive LLC](https://recurxive.com)**, building AI i
 
 ## Ship log
 
-- `next` **FlashFeed lesson videos**: short vertical videos generated from FlashFeed lessons. Each frame is a function of time keyed to the narration, so the visuals re-time themselves when the voice changes.<br>`canvas` `headless Chromium` `ffmpeg`
+- `2026‑11` **In Character** ([demo video](https://youtu.be/5ghpkYXWu48)): a hackathon prototype for the Meta Global AI Developer Hackathon, where you role-play what you just learned. Character lines are written ahead of time from the lesson and checked against it, and the grader has to quote you for every point it awards; code rejects any quote that isn't in your transcript.<br>`React` `Hono` `Cloudflare Workers` `Meta Muse models`
+- `2026‑10` **[FlashFeed](https://flashfeedlearningapp.com)** released on the [App Store](https://apps.apple.com/us/app/flashfeed/id6788783813), followed by [Google Play](https://play.google.com/store/apps/details?id=com.recurxive.flashfeed): 68 packs, 23 games, cards and study guides in one feed, and a Review queue for the questions you miss.<br>`Expo` `React Native` `iOS` `Android`
+- `2026‑10` **[FlashFeed lesson videos](https://www.youtube.com/@FlashFeedLearningApp)**: short motion-graphic clips made from FlashFeed lessons, now on YouTube. Every scene is code (HTML/SVG and GSAP), rendered with a voice-over and music.<br>`GSAP` `HyperFrames` `ElevenLabs`
 - `2026‑09` **[FractalSprites](https://github.com/garygeo-19/FractalSprites)**: turns transparent sprites into kaleidoscopes, mirror tunnels, and Mandelbrot and Julia fractals that sample the sprites' own colors, with mesh morphs between shapes. It has six themed worlds and exports 720p or 1080p clips with a soundtrack.<br>`p5.js` `WebGL` `Vite` `MediaRecorder`
 - `2026‑09` **Projection mapping experiments**: generative p5.js visuals mapped onto the faces of a cube, with per-face corner calibration that can be saved and reloaded. It's a first step toward projecting onto physical objects.<br>`p5.js` `p5.mapper`
 - `2026‑06` **[The Future of Learning](https://pub.towardsai.net/the-future-of-learning-0e46f6497a79)**: an essay on how AI changes learning in three steps: sourcing knowledge, shaping it for a specific learner, and delivering it through media, interfaces, and conversation.<br>`essay` `Towards AI`
@@ -65,4 +75,4 @@ I also consult through **[Recurxive LLC](https://recurxive.com)**, building AI i
 
 ## Elsewhere
 
-[recurxive.com](https://recurxive.com) · [LinkedIn](https://www.linkedin.com/in/garygeorge) · [X](https://x.com/garygeo) · [Medium](https://medium.com/@garygeo) · Instagram: [AbsurdScene](https://www.instagram.com/absurd.scene/), [Family Tree Art Studio](https://www.instagram.com/familytreeartstudio/) · [FlashFeed](https://flashfeedlearningapp.com)
+[recurxive.com](https://recurxive.com) · [LinkedIn](https://www.linkedin.com/in/garygeorge) · [X](https://x.com/garygeo) · [Medium](https://medium.com/@garygeo) · Instagram: [AbsurdScene](https://www.instagram.com/absurd.scene/), [Family Tree Art Studio](https://www.instagram.com/familytreeartstudio/) · [FlashFeed](https://flashfeedlearningapp.com) · [FlashFeed on YouTube](https://www.youtube.com/@FlashFeedLearningApp)
